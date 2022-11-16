@@ -172,9 +172,9 @@ th, td {
 
 .todo-item .actions .edit {
 	margin-right: 0.5rem;
-	background-color: red;
+	background-color: blue;
 }
 
 .todo-item .actions .delete {
-	background-color: orange;
+	background-color: red;
 }
