@@ -161,7 +161,7 @@ th, td {
 	display: block;
 	padding: 0.5rem;
 	border-radius: 0.25rem;
-	color: black;
+	color: white;
 	cursor: pointer;
 	transition: 0.2s ease-in-out;
 }
@@ -172,7 +172,7 @@ th, td {
 
 .todo-item .actions .edit {
 	margin-right: 0.5rem;
-	background-color: blue;
+	background-color: #4682BF;
 }
 
 .todo-item .actions .delete {
