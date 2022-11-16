@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,500&display=swap" rel="stylesheet">
+    <title>Career Objectives</title>
+</head>
+<body>
+    <div class="link-container">
+        <a href="home.html" class="logout" >My CV</a>
+        <a href="career.html" class="logout" >Career Objectives</a>
+        <a href="index.html" class="logout" >LOGOUT</a>
+    </div>
+    <div class="main-container">
+        <div class="cv-wrapper">
+            <h1>CAREER OBJECTIVES</h1>
+            <div class="formflex">
+                <!-- form -->
+                <form action="" class="formflex" id="new-todo-form">
+                    <!-- forms left side-->
+                    <div class="leftside">
+                        <div class="twoElem">
+                            <div class="id flex">
+                                <h2>ID #</h2>
+                                <input 
+                                type="text" 
+                                name="id" 
+                                id="id">
+                            </div>
+                            <div class="name flex">
+                                <h2>NAME</h2>
+                                <input 
+                                type="text" 
+                                name="name" 
+                                id="name">
+                            </div>
+                        </div>
+                        <div class="desc flex">
+                            <h2>DESCRIPTION</h2>
+                            <input 
+                            class="input-max"
+                            type="text"
+                            name="desc" 
+                            id="description">
+                        </div>
+                        <div class="reason flex">
+                            <h2>REASON</h2>
+                            <input class="input-max" type="text" name="reason" id="reason">
+                        </div>
+                    </div>
+                    <!-- form right side -->
+                    <div class="rightside">
+                        <div class="tdate flex">
+                            <h2>TARGET DATE</h2>
+                            <input type="date" name="tDate" id="targetDate">
+                        </div>
+                        <div class="cdate flex">
+                            <h2>DATE COMPLETED</h2>
+                            <input type="date" name="cDate" id="dateCompleted">
+                        </div>
+                        <input type="submit" value="Add todo" class="btn41-43 btn-43 input-max">
+                    </div>
+                </form>
+            </div>
+            <!-- table type -->
+            <div class="table-wrapper">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td>ID</td>
+                            <td>Name</td>
+                            <td>Description</td>
+                            <td>Reason</td>
+                            <td>Target Date</td>
+                            <td>Date Completed</td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody class="block" id="todo-list"></tbody>
+                </table>              
+            </div>
+            <!-- <table class="list" id="todo-list"></table> -->
+        </div>
+    </div>
+    <script src="career.js"></script>    
+</body>
+</html>

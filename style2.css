@@ -1,0 +1,249 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    background-color: #121212;
+}
+
+* {
+    color: white;
+}
+
+.link-container {
+    position: fixed;
+    top: 2%;
+    right: 1%;
+    display: flex;
+    gap: 1.3em;
+}
+
+.logout {
+    cursor: pointer;
+}
+
+.logout:hover {
+    color: aqua;
+}
+.main-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 3.1em;
+    line-height: .5;
+}
+
+h2 {
+    font-size: 2.2em;
+    line-height: .5;
+}
+
+h3 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+p {
+    font-size: 1.25em;
+    margin-top: 1em;
+    line-height: 1em;
+    margin-bottom: 0em;
+}
+
+.education{
+    margin: 3.5em 0em;
+}
+
+.boldtext {
+    margin-top: .3em;
+}
+
+span {
+    font-weight: 600;
+}
+
+.cv-wrapper {
+    overflow: hidden;
+    width: 78em;
+    height: 900px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #212121;
+}
+
+.image-container {
+    position: relative;
+    width: auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.name {
+    position: absolute;
+    top: auto;
+    bottom: 3%;
+    left: 21%;
+}
+
+.bigname {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+img {
+    width: auto;
+}
+
+.tabcontent {
+    overflow: auto;
+    height: auto;
+    width: 100%;
+    height: 90%;
+    padding: 2em;
+}
+
+.tabs-container {
+    width: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 45%;
+}
+
+
+.mid-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab {
+    overflow: hidden;
+    border: none;
+    background-color: transparent;
+}
+
+.tab button {
+    border: none;
+    outline: none;
+    cursor: auto;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: rgb(20, 91, 153);
+    background-color: transparent;
+}
+
+.tab button:hover {
+    background-color: aqua;
+}
+
+.tab button.active {
+    background-color: rgb(156, 41, 41);
+}
+
+/* progress bar */
+.skill-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em 5em;
+}
+
+.skill-container {
+    width: 25%;
+}
+
+.progbar {
+    margin-bottom: 1.5em;
+    height: 1em;
+    width: 100%;
+    background-color: #383838;
+}
+
+.htmlbar {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(40, 115, 185);
+}
+
+.cssbar {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(40, 115, 185);
+}
+
+.jsbar {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(40, 115, 185);
+}
+
+/* projects card */
+.maincard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.card {
+    overflow: hidden;
+    height: 12.5em;
+    width: 20em;
+    background-color: white;
+    border-color:  black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    display: flex;
+    align-items: flex-end;
+    transition-duration: .5s;
+    position: relative;
+}
+
+
+.cardlabel {
+    background-color: #383838;
+    width: 100%;
+    padding: .5em;
+    opacity: 0%;
+    transition-duration: .5s;
+    position: relative;
+    z-index: 1;
+}
+
+.card:hover {
+    transform: translate(-10px, -5px);
+    opacity: 100%;
+}
+
+.card:hover .cardlabel {
+    opacity: 100%;
+}
+
+.websites-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 0;
+}
+
+/* contact icons */
+.contact-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em 1em;
+    padding: .5em;
+}
+
+.ctc-text {
+    margin-top: 0px;
+}

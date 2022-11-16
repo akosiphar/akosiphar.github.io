@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,500&display=swap" rel="stylesheet">
+    <title>My CV</title>
+</head>
+<body>
+    <div class="link-container">
+        <a href="home.html" class="logout" >My CV</a>
+        <a href="career.html" class="logout" >Career Objectives</a>
+        <a href="index.html" class="logout" >LOGOUT</a>
+    </div>
+    <div class="main-container">
+        <div class="cv-wrapper">
+            <div class="tabcontent" id="aboutMe">
+                <div class="aboutme">
+                    <h1>ABOUT ME</h1>
+                    <p>I'm a Low/No-code developer transitioning to
+                    high-code, seeking a full-time position where I
+                    can apply my knowledge and skills for
+                    continuous improvement.</p>
+                </div>
+                <div class="education">
+                    <h2>EDUCATION</h2>
+                    <p>2011 - 2014</p>
+                    <p class="boldtext"><span>Technological University of the Philippines</span>
+                    <br>Electronics Engineering Technology</p>
+                    <p>2014 - 2020</p>
+                    <p class="boldtext"><span>Technological Institute of the Philippines</span>
+                    <br>BS Electronics Engineering</p>
+                </div>
+                <div class="experience">
+                    <h2>EXPERIENCE</h2>
+                    <p>2021 - 2022</p>
+                    <p class="boldtext"><span>Unlimited Possibilities Creative Solutions Inc.</span>
+                    </p>
+                    <p><span>WEBFLOW DEVELOPER</span></p>
+                    <ul class="list">
+                        <li>Developing a website based on the Design Team</li>
+                        <li>Making website Responsive</li>
+                    </ul>
+                </div>   
+            </div>
+            <div class="tabcontent" id="skills">
+                <div class="aboutme">
+                    <h1>SKILLS</h1>
+                    <div class="skill-wrapper">
+                        <div class="skill-container">
+                            <h3>HTML</h3>
+                            <div class="progbar">
+                            <div class="htmlbar"></div>
+                            </div>
+                        </div>
+                        <div class="skill-container">
+                            <h3>CSS</h3>
+                            <div class="progbar">
+                            <div class="cssbar"></div>
+                            </div>
+                        </div>
+                        <div class="skill-container">
+                            <h3>JAVASCRIPT</h3>
+                            <div class="progbar">
+                            <div class="jsbar"></div>
+                            </div>
+                        </div>
+                        <div class="skill-container">
+                            <h3>PHOTOSHOP</h3>
+                            <div class="progbar">
+                            <div class="jsbar"></div>
+                            </div>
+                        </div>
+                        <div class="skill-container">
+                            <h3>VIDEO EDITING</h3>
+                            <div class="progbar">
+                            <div class="jsbar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <h2>PROJECTS DONE</h2>
+                        <div class="maincard">
+                            <a href="https://www.intalioestates.ph/" target="_blank" >
+                                <div class="card">
+                                    <div class="cardlabel">Intalio Estates</div>
+                                    <img class="websites-img" src="img/intalioestates.JPG" alt="intalioestates">
+                                </div>
+                            </a>
+                            <a href="https://www.weecommcentre.ph/" target="_blank">
+                                <div class="card">
+                                    <div class="cardlabel">Weecomm Center</div>
+                                    <img class="websites-img" src="img/weecommcentre.JPG" alt="wee comm centre">
+                                </div>
+                            </a>
+                            <a href="https://www.jacintaenclaves.com/" target="_blank">
+                                <div class="card">
+                                    <div class="cardlabel">Jacinta Enclaves</div>
+                                    <img class="websites-img" src="img/jacintaenclaves.JPG" alt="Jacinta Enclaves">
+                                </div>
+                            </a>
+                            <a href="https://www.jrccmanila.edu.ph/" target="_blank">
+                                <div class="card">
+                                    <div class="cardlabel">JRCC</div>
+                                    <img class="websites-img" src="img/JRCC.png" alt="Jacinta Enclaves">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tabcontent" id="contact">
+                <div class="aboutme">
+                    <h1>CONTACT ME</h1>
+                </div>
+                <div class="contact-icon">
+                    <div class="call-icon">
+                        <img src="img/phone.png" alt="phone" srcset="">
+                    </div>
+                    <p class="ctc-text">+639664701052</p>
+                </div>
+                <div class="contact-icon">
+                    <div class="mail">
+                        <img src="img/mail.png" alt="mail" srcset="">
+                    </div>
+                    <p class="ctc-text">raphgalag@gmail.com</p>
+                </div>   
+            </div>
+            <div class="image-container">
+                <div class="name">
+                    <h3 class="bigname">Raphaelo Galag</h3>
+                </div>
+                <img src="img\gradpic.png" alt="gradpic" class="gradpic">
+            </div>
+            <div class="tabs-container">
+                <div class="tab mid-container">
+                    <button class="tablinks" onclick="openTab(event, 'aboutMe')" id="defaultOpen">
+                        <svg class="user-icon" width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M44.1666 46.375V41.9583C44.1666 39.6156 43.2359 37.3688 41.5794 35.7122C39.9228 34.0557 37.676 33.125 35.3333 33.125H17.6666C15.3238 33.125 13.077 34.0557 11.4205 35.7122C9.7639 37.3688 8.83325 39.6156 8.83325 41.9583V46.375" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M26.5001 24.2917C31.3786 24.2917 35.3334 20.3368 35.3334 15.4583C35.3334 10.5798 31.3786 6.625 26.5001 6.625C21.6216 6.625 17.6667 10.5798 17.6667 15.4583C17.6667 20.3368 21.6216 24.2917 26.5001 24.2917Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </button>
+                    <button class="tablinks" onclick="openTab(event, 'skills')">
+                        <svg class="skill-icon" width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M39.75 46.375C43.4089 46.375 46.375 43.4089 46.375 39.75C46.375 36.0911 43.4089 33.125 39.75 33.125C36.0911 33.125 33.125 36.0911 33.125 39.75C33.125 43.4089 36.0911 46.375 39.75 46.375Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.25 19.875C16.9089 19.875 19.875 16.9089 19.875 13.25C19.875 9.59111 16.9089 6.625 13.25 6.625C9.59111 6.625 6.625 9.59111 6.625 13.25C6.625 16.9089 9.59111 19.875 13.25 19.875Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M28.7083 13.25H35.3333C36.5046 13.25 37.628 13.7153 38.4563 14.5436C39.2846 15.3719 39.7499 16.4953 39.7499 17.6667V33.125" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.25 19.875V46.375" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </button>
+                    <button class="tablinks" onclick="openTab(event, 'contact')">
+                        <svg class="phone" width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33.2354 11.0417C35.3923 11.4625 37.3746 12.5174 38.9286 14.0714C40.4826 15.6254 41.5375 17.6077 41.9583 19.7646M33.2354 2.20837C37.7167 2.70621 41.8956 4.71301 45.0858 7.89927C48.2761 11.0855 50.2881 15.2619 50.7916 19.7425M48.5833 37.365V43.99C48.5858 44.6051 48.4598 45.2138 48.2134 45.7773C47.967 46.3409 47.6057 46.8467 47.1525 47.2625C46.6993 47.6783 46.1642 47.9948 45.5816 48.1918C44.999 48.3889 44.3817 48.4621 43.7691 48.4067C36.9737 47.6683 30.4462 45.3463 24.7112 41.6271C19.3755 38.2366 14.8517 33.7128 11.4612 28.3771C7.72907 22.616 5.40649 16.0568 4.68162 9.23087C4.62644 8.6202 4.69901 8.00472 4.89473 7.42363C5.09044 6.84254 5.40501 6.30856 5.8184 5.8557C6.23179 5.40285 6.73494 5.04102 7.29583 4.79328C7.85671 4.54553 8.46304 4.41728 9.0762 4.41671H15.7012C16.7729 4.40616 17.8119 4.78567 18.6245 5.48451C19.4371 6.18334 19.9679 7.15382 20.1179 8.21504C20.3975 10.3352 20.9161 12.4169 21.6637 14.4205C21.9608 15.2109 22.0251 16.0699 21.849 16.8957C21.6729 17.7216 21.2637 18.4796 20.67 19.08L17.8654 21.8846C21.0091 27.4133 25.5867 31.9909 31.1154 35.1346L33.92 32.33C34.5204 31.7363 35.2784 31.3271 36.1043 31.151C36.9301 30.9749 37.7891 31.0392 38.5795 31.3363C40.5831 32.0839 42.6648 32.6025 44.785 32.8821C45.8577 33.0335 46.8374 33.5738 47.5377 34.4003C48.238 35.2269 48.6102 36.282 48.5833 37.365Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </button>
+                    
+                </div>
+                <a href="Raphaelo Galag.pdf" target="_blank" rel="noopener noreferrer">
+                    <div class="bottom-container">
+                        <svg class="download-icon" width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.3333 41.0833L28.9999 50.75L38.6666 41.0833" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M29 29V50.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M50.46 43.7175C52.5611 42.2401 54.1366 40.1316 54.9581 37.698C55.7796 35.2644 55.8043 32.6323 55.0285 30.1838C54.2527 27.7352 52.7169 25.5976 50.6439 24.081C48.5709 22.5645 46.0685 21.748 43.5 21.75H40.455C39.7282 18.9174 38.3682 16.2865 36.4775 14.0555C34.5868 11.8246 32.2145 10.0516 29.5394 8.87004C26.8643 7.68852 23.9561 7.12925 21.0335 7.23435C18.111 7.33945 15.2504 8.10618 12.6671 9.4768C10.0838 10.8474 7.84506 12.7862 6.11947 15.1473C4.39388 17.5083 3.2264 20.23 2.7049 23.1076C2.18341 25.9851 2.3215 28.9435 3.10877 31.7599C3.89605 34.5763 5.312 37.1775 7.25002 39.3675" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </div>   
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
